@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FPCardLayout size="match match" backgroundColor="#0000FF">
+	<FPLayout size="match wrap" orientation="vertical" margin="10 10 10 10">
+		<FPLabel size="wrap wrap" title="Selected: blue" gravity="right" textSize="21" />
+	</FPLayout>
+</FPCardLayout>

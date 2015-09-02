@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FPLayout size="match wrap" orientation="vertical" backgroundColor="#6B0311" gravity="left">
+    <FPListView name="drawer_list_view" rowTemplate="menu_row.xml" />
+</FPLayout>
