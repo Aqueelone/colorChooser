@@ -14,6 +14,9 @@ var MainWindow = FPDrawerWindow.extend({
 
                 var drawerView = views["drawer.xml"];
                 self.setDrawerLayout(drawerView);
+               
+                self.colorBlueController = new ColorBlueViewController();
+                self.colorBlueController.showInWindow(self);
 
                 var menuListView = drawerView.getViewByName("drawer_list_view");
                 var menuDataModel = new DrawerMenuDataModel();
@@ -40,7 +43,7 @@ var MainWindow = FPDrawerWindow.extend({
                                 break;
                             }
                             // black
-                            case 1: {
+                            case 2: {
                                 if (!self.colorBlackController) {
                                     self.colorBlackController = new ColorBlackViewController();
                                 }
